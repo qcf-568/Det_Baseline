@@ -2,8 +2,8 @@
 ### 关于作者
 前2届凭证篡改检测竞赛Top1，本届作为主办方成员无法参加，提供一些最基本的方法、思路供community参考和优化
 ### 关于基线模型
-* 训练代码: [code](https://tianchi.aliyun.com/competition/entrance/532267/information) (Baseline.zip，完全开源的模型且使用完全开源的模型初始化参数)。
-* 环境版本: [requirements.txt](https://github.com/qcf-568/Det_Baseline/blob/main/requirements.txt) (直接按上届比赛的实验环境导出的，仅作参考，没验证过现状还能不能用，主要注意用mmdet>=2.0.0)。
+* 训练代码：[code](https://tianchi.aliyun.com/competition/entrance/532267/information) (Baseline.zip，完全开源的模型且使用完全开源的模型初始化参数)。
+* 环境版本：[requirements.txt](https://github.com/qcf-568/Det_Baseline/blob/main/requirements.txt) (直接按上届比赛的实验环境导出的，仅作参考，没验证过现状还能不能用，主要注意用mmdet>=2.0.0)。
 * 推理代码：[tta_infer.py](https://github.com/qcf-568/Det_Baseline/blob/main/tta_infer.py) (单模推理脚本，使用了最基础的TTA(水平翻转、多尺度)，加模型集成等可以直接在这个基础上改)。
 * 其他情况：提供的基线模型 (SwinL+CascadeR-CNN) 是实际参赛用到的Strong baselines里面指标最低但是速度最快的。
 ### 基线模型的优化思路
